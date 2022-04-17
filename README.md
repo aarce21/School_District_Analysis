@@ -14,18 +14,25 @@ In the original analysis, when we ran the top five schools, Thomas High School p
 In the updated analysis, when Thomas High Schools overall passing percentage dropped to 65%, this caused them to drop out of the top five and move further down the list. 
 ### How does replacing the ninth-grade scores affect the following:
 1. Math and reading scores by grade
+
 In the following images the original math and reading scores analysis by grade can be seen on the right and the new scores on the left. When we removed the 9th grade scores for Thomas High School it caused those values to turn to NaN instead of the original 83.6 and 83.7% because we are no longer taking them into account. 
 ![MathScoresByGrade](https://github.com/aarce21/School_District_Analysis/blob/main/Resources/MathScoresByGrade.PNG)
 ![ReadingScoresByGrade](https://github.com/aarce21/School_District_Analysis/blob/main/Resources/ReadingScoresByGrade.PNG)
+
 2. Scores by school spending
+
 In both the original analysis and the updated analysis Thomas High School falls into the $630-$645 spending bracket. Removing the 9th grade math and reading scores did not have much of an impact on this analysis. 
+
 3. Scores by school size
+
 The scores by school size also did not see a great amount of change when we removed the 9th grade scores for Thomas High School. Thomas High School still falls into the Medium size(1000-1999) school category, as seen below. There was a slight difference in the overall passing % column, but not significant enough for Thomas High School to change the bin it falls in to. 
 Original School Size:
 ![OriginalSchoolSize](https://github.com/aarce21/School_District_Analysis/blob/main/Resources/OriginalSchoolSize.PNG)
 New School Size:
 ![NewSchoolSize](https://github.com/aarce21/School_District_Analysis/blob/main/Resources/NewSchoolSize.PNG)
-7. Scores by school type
+
+4. Scores by school type
+
 Scores by school type did not have a nig change after we removed the 9th grade scores from Thomas High School. The numbers of the overall passing percentage had a slight change but not significant. 
 Original School Type: 
 ![OriginalSchoolType](https://github.com/aarce21/School_District_Analysis/blob/main/Resources/OriginalSchoolType.PNG)

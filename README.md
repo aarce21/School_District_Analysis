@@ -26,3 +26,10 @@ Original School Size:
 New School Size:
 ![NewSchoolSize](https://github.com/aarce21/School_District_Analysis/blob/main/Resources/NewSchoolSize.PNG)
 7. Scores by school type
+Scores by school type did not have a nig change after we removed the 9th grade scores from Thomas High School. The numbers of the overall passing percentage had a slight change but not significant. 
+Original School Type: 
+![OriginalSchoolType](https://github.com/aarce21/School_District_Analysis/blob/main/Resources/OriginalSchoolType.PNG)
+New School Type:
+![NewSchoolType](https://github.com/aarce21/School_District_Analysis/blob/main/Resources/NewSchoolType.PNG)
+# Summary 
+One of the major changes we saw after changes the scores for Thomas High School's 9th graders to NaN's is that the school's overall passing percentage dropped from 91% down to 65%. This is a drastic decrease and also led to another change. In the original analysis, Thomas High School placed second among the top five performing schools. Removing the scores and re-running the analysis caused them to lose their second place spot and not place in the top five at all. Another change was seen when we ran the analysis to get the math and reading scores by grade level for each school. The 14 other schools had values for 9th-12th grade, whereas Thomas High School only showed values for 10th-12th grade and "NaN" for the 9th grade. The final change after removing the 9th grade scores could be seen when we ran the analysis for overall passing percentage by school size and school type. Although these changes were small, down the the hundrethes place, removing the scores did cause a change. 

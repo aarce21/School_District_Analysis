@@ -1,9 +1,12 @@
-# School_District_Analysis
+# School District Analysis
 # Overview  
-The purpose of the School District Analysis is to gather various metrics on school data to deliver the results to a school board. With the focus on the math and reading scores from different schools, our goal was to see how the students performed, how schools ranked among each other, and determine a school's budget and budget per capita. When the School Board noticed dishonesty among the results of Thomas High School's 9th graders, our objective was then to re-run the analysis without those scors being accounted for and then see if they had a significant difference on the district summary as a whole. 
+The purpose of the School District Analysis is to gather various metrics on school data to deliver the results to a school board. With the focus on the math and reading scores from different schools, our goal was to see how the students performed, how schools ranked among each other, and determine a school's budget and budget per capita. When the School Board noticed dishonesty among the results of Thomas High School's 9th graders, our objective was then to re-run the analysis without those scores being accounted for and see if they had a significant difference on the district summary as a whole. 
+
 # Results of the School District Analysis
+
 ### How is the district summary affected?
 When we re-ran the district summary analysis after removing scores, we saw only a small change from the original analysis. When we dropped the 9th grade math and reading scores, we were still taking into account all grade levels from the other 14 schools and 10th-12th grade scores from Thomas High School. Removing one grade level from one school had a less then 1% impact on the district summary due to there only being less than 500 9th grade scores from Thomas High School compared to the over 39,000 other students grades that are being taken into account. 
+
 ### How is the school summary affected? 
 ![PerSchoolSummary_original](https://github.com/aarce21/School_District_Analysis/blob/main/Resources/PerSchoolSummary_original.PNG)
 After re-running the analysis, Thomas High School's overall passing percentage dropped from a 91% overall passing rate, as seen in the original photo above, to a 65% overall passing rate. When we dropped the 9th grade reading and math scores and only accounted for the 10th-12th grade scores, this caused the rest of the data to correct itself and the new number are based only off of those three grade levels. 
@@ -33,7 +36,7 @@ New School Size:
 
 4. Scores by school type
 
-Scores by school type did not have a nig change after we removed the 9th grade scores from Thomas High School. The numbers of the overall passing percentage had a slight change but not significant. 
+Scores by school type did not have a significant change after we removed the 9th grade scores from Thomas High School. The numbers of the overall passing percentage had a slight change but not significant. 
 Original School Type: 
 ![OriginalSchoolType](https://github.com/aarce21/School_District_Analysis/blob/main/Resources/OriginalSchoolType.PNG)
 New School Type:
